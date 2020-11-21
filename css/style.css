@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&display=swap');
+body{
+	margin: 0px;
+	padding-top: 0px;
+	font-family: 'Lato';
+	scroll-behavior: smooth;
+}
+.navbar-brand{
+	font-family:Pacifico;
+	font-size: 35px;
+	color: lightcoral !important;
+}
+.nav-link{
+	color: black !important;
+	font-size: 15px;
+	margin:15px;
+	font-family: Roboto Condensed;
+}
+.nav-link:hover{
+	color: #00e8e8 !important;
+}
+.active .nav-link{
+	color :#00e8e8 !important;
+}
+
+.menu-right-btn{
+	background-color: transparent;
+	margin-right: 4%;
+	padding:14px 46px;
+	transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+	color: white;
+	background-color: #00e8e8;
+}
+
+.site-container{
+	background-image: url(../img/book.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.site-title{
+	margin-top: 30%;
+	margin-bottom: 6%;
+	font-size:50px;
+}
+.site-desc,.site-title{
+	font-family:Righteous;
+}
+.site-desc{
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+.site-btn1{
+	color: white;
+	background-color: black;
+	margin-left: 20px;
+	font-family: pacifico;
+}
+
+.site-btn2{
+	color: black;
+	font-family: pacifico;
+}
+
+.site-btn1,.site-btn2{
+margin-top: 5px;
+margin-bottom: 40%;
+}
+/*SECTION 1*/
+.section-1 .heading-1{
+	margin-top: 8%;
+}
+.section-1 .heading-2{
+	margin-bottom: 5%;
+	font-size: 49px;
+}
+.section-1 .para-1{
+	width:60%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+
+}
+
+.section-1 .card-text,.para-1{
+	color: rgb(0,0,0,0.59);
+}
+.section-1{
+	margin-bottom: 8%;
+}
+/*SECTION 2*/
+.section-2 .container-fluid{
+	background-image: url('../img/book5.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.section-2 .heading-1{
+	margin-top: 20%;
+	margin-bottom: 8%;
+	font-family: Pacifico;
+	color: whitesmoke;
+	width: 80%;
+}
+.section-2 .para{
+	margin-bottom: 10%;
+	font-family: lato;
+	color: whitesmoke;
+	width: 80%;
+}
+.section-2 .btn{
+	width: 20%;
+	margin-bottom: 15%;
+	padding: 2% 5%;
+}
+.section-3{
+	margin-top: 6%;
+}
+.section-3 i{
+	color: #00e8e8;
+}
+
+.section-3 p{
+	color:rgb(0,0,0,0.59);
+}
+
+/*SECTION 4*/
+.section-4{
+	margin-top: 8%;
+}
+.section-4 .row .col-md-7, .col-md-5{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.section-4 a{
+	color:lightseagreen;
+	font-size: 40px;
+	text-decoration: none;
+}
+.section-4 .para-1{
+	color:white;
+	font-size: 23px;
+	font-family: Roboto Condensed;
+	margin-top: 7%;
+}
+
+ .social i{
+	font-size: 40px;
+}
+.fa-facebook{
+	color:#4267B2;
+}
+.fa-twitter{
+	color:#1DA1F2;
+}
+.fa-instagram{
+	color:#3f729b;
+}
+.fa-youtube{
+	color:#FF0000;
+}
+
+.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.fa-youtube:hover{
+	color: black;
+}
